@@ -24,7 +24,7 @@ public struct AccordionHeader: View {
         .foregroundColor(isEnabled ? Color.blue : Color.gray)
 
       if content.isExternalLink {
-            Image(systemName: "share")
+            Image(systemName: "rectangle.on.rectangle")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 16, height: 16)
