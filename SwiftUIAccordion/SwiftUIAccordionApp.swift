@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIAccordionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          Accordion()
         }
     }
 }

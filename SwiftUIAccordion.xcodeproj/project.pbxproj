@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D8DC7F2626276D46006F559C /* SwiftUIAccordionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F2526276D46006F559C /* SwiftUIAccordionApp.swift */; };
-		D8DC7F2826276D46006F559C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F2726276D46006F559C /* ContentView.swift */; };
 		D8DC7F2A26276D48006F559C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DC7F2926276D48006F559C /* Assets.xcassets */; };
 		D8DC7F2D26276D48006F559C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DC7F2C26276D48006F559C /* Preview Assets.xcassets */; };
+		D8DC7F3626276D63006F559C /* Accordion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F3526276D63006F559C /* Accordion.swift */; };
+		D8DC7F3A26276DC0006F559C /* AccordionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F3926276DC0006F559C /* AccordionContainer.swift */; };
+		D8DC7F3D26276E04006F559C /* ContentRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F3C26276E04006F559C /* ContentRepresentable.swift */; };
+		D8DC7F4026276E35006F559C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F3F26276E35006F559C /* DataModel.swift */; };
+		D8DC7F4326276E64006F559C /* AccordionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F4226276E64006F559C /* AccordionHeader.swift */; };
+		D8DC7F4626276E7B006F559C /* AccordionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC7F4526276E7B006F559C /* AccordionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8DC7F2226276D46006F559C /* SwiftUIAccordion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAccordion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DC7F2526276D46006F559C /* SwiftUIAccordionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAccordionApp.swift; sourceTree = "<group>"; };
-		D8DC7F2726276D46006F559C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8DC7F2926276D48006F559C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8DC7F2C26276D48006F559C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8DC7F2E26276D48006F559C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DC7F3526276D63006F559C /* Accordion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accordion.swift; sourceTree = "<group>"; };
+		D8DC7F3926276DC0006F559C /* AccordionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionContainer.swift; sourceTree = "<group>"; };
+		D8DC7F3C26276E04006F559C /* ContentRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepresentable.swift; sourceTree = "<group>"; };
+		D8DC7F3F26276E35006F559C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		D8DC7F4226276E64006F559C /* AccordionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionHeader.swift; sourceTree = "<group>"; };
+		D8DC7F4526276E7B006F559C /* AccordionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				D8DC7F2526276D46006F559C /* SwiftUIAccordionApp.swift */,
-				D8DC7F2726276D46006F559C /* ContentView.swift */,
+				D8DC7F3526276D63006F559C /* Accordion.swift */,
+				D8DC7F3926276DC0006F559C /* AccordionContainer.swift */,
+				D8DC7F3C26276E04006F559C /* ContentRepresentable.swift */,
+				D8DC7F3F26276E35006F559C /* DataModel.swift */,
+				D8DC7F4226276E64006F559C /* AccordionHeader.swift */,
+				D8DC7F4526276E7B006F559C /* AccordionRow.swift */,
 				D8DC7F2926276D48006F559C /* Assets.xcassets */,
 				D8DC7F2E26276D48006F559C /* Info.plist */,
 				D8DC7F2B26276D48006F559C /* Preview Content */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8DC7F2826276D46006F559C /* ContentView.swift in Sources */,
+				D8DC7F4026276E35006F559C /* DataModel.swift in Sources */,
+				D8DC7F3D26276E04006F559C /* ContentRepresentable.swift in Sources */,
+				D8DC7F3A26276DC0006F559C /* AccordionContainer.swift in Sources */,
 				D8DC7F2626276D46006F559C /* SwiftUIAccordionApp.swift in Sources */,
+				D8DC7F3626276D63006F559C /* Accordion.swift in Sources */,
+				D8DC7F4326276E64006F559C /* AccordionHeader.swift in Sources */,
+				D8DC7F4626276E7B006F559C /* AccordionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
